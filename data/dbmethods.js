@@ -4,7 +4,8 @@ module.exports = {
   getProjects,
   getProjectById,
   addProject,
-  addAction
+  addAction,
+  getActions
 };
 
 function getProjects() {
@@ -23,4 +24,8 @@ function addProject(project) {
 
 function addAction(action) {
   return db("actions").insert(action);
+}
+
+function getActions() {
+  return db("actions");
 }
