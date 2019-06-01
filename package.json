@@ -1,0 +1,8 @@
+{
+  "name": "webdb-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RonnySAlvarado/webdb-challenge.git",
+  "author": "Ronny Alvarado <rsalvarado777@gmail.com>",
+  "license": "MIT"
+}
